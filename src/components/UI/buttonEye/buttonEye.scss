@@ -1,0 +1,29 @@
+.button-eye {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10.5px 12px 10.5px 14.05px;
+	background: #F3F4F6;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+	.eye-img {
+		height: 11.6px;
+		width: 15.9px;
+		margin-right: 10.05px;
+		background: url('../../../assets/Ser.png') 50% no-repeat, url('../../../assets/Eye.png') 0 0/100% 100% no-repeat;
+	}
+	span {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 15px;
+		color: #4D5562;
+	}
+}
+.active-eye {
+	background: #FFFFFF;
+	border: 1px solid #E2E3E5;
+	.eye-img{
+		background: url('../../../assets/SerBlue.png') 50% no-repeat, url('../../../assets/EyeBlue.png') 0 0/100% 100% no-repeat;;
+	}
+}

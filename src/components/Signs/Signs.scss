@@ -1,0 +1,17 @@
+.computing-signs-body {
+	width: 240px;
+	height: 56px;
+	border-radius: 4px;
+	order: 2;
+	background: url(../../assets/signsBac.png) -0.67px 1.3px no-repeat;
+}
+.computing-signs {
+	width: 240px;
+	height: 56px;
+	padding: 4px;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	display: flex;
+	justify-content: space-between;
+	order: 2;
+}

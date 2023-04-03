@@ -1,0 +1,29 @@
+.button-arrow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10.5px 12px 10.5px 16.17px;
+	background: #F3F4F6;
+	border-radius: 5px;
+	cursor: pointer;
+	user-select: none;
+	.arrow-img {
+		height: 9px;
+		width: 12px;
+		margin-right: 10.05px;
+		background: url('../../../assets/VectorB.png') 0 0/100% 100% no-repeat;
+	}
+	span {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 15px;
+		color: #4D5562;
+	}
+}
+.active-arrow {
+	background: #FFFFFF;
+	border: 1px solid #E2E3E5;
+	.arrow-img{
+		background: url('../../../assets/VectorBlue.png') 0 0/100% 100% no-repeat;
+	}
+}

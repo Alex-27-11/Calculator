@@ -1,0 +1,16 @@
+.com-btn {
+	display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border: 1px solid #E2E3E5;
+border-radius: 6px;
+width: 52px;
+height: 48px;
+user-select: none;
+cursor: pointer;
+	&:active {
+		border: 2px solid #5D5FEF;
+	}
+}
